@@ -9,8 +9,8 @@ metadata:
   component: mongodb
 spec:
  replicas: {{ .Values.deployment.replicas }}
- matchLabels:
-  selector:
+ selector:
+  matchLabels:
    project: roboshop
    tier: db
    component: mongodb
