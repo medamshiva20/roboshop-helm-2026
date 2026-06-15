@@ -8,7 +8,7 @@ metadata:
   tier: backend
   component: catalogue
 spec:
- replicas: {{ .Values.deployemt.replicas }}
+ replicas: {{ .Values.deployment.replicas }}
  selector:
   matchLabels:
    project: roboshop
