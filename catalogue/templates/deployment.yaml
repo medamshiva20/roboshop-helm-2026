@@ -43,7 +43,7 @@ spec:
         port: 8080
        failureThreshold: 2
        periodSeconds: 10
-       initialDelaySconds: 15
+       initialDelaySeconds: 15
       livenessProbe:
        httpGet:
         port: 8080
