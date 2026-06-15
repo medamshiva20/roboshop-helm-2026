@@ -1,0 +1,7 @@
+deployment:
+ replicas: "1"
+ imageName: "sivamedam/mongodb"
+ imageVersion: "1.0.0"
+
+service:
+ type: ClusterIP

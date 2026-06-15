@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: mongodb
+ namespace: roboshop
+ labels:
+  project: roboshop
+  tier: db
+  component: mongodb
+spec:
+ replicas: {{ .Values.deplyment.replicas }}
+ matchLabels:
+  selector:
+   project: roboshop
+   tier: db
+   component: mongodb
+ template:
+  metadata:
+   labels:
+    project: roboshop
+    tier: db
+    component: mongodb
+  spec:
+   containers:
+    - name: mongodb
+      image: "{{ .Values.deployment.imageName}}:{{ .Values.deployment.imageVersion}}"

@@ -1,0 +1,5 @@
+apiVersion: v2
+name: mongodb
+version: "0.0.1"
+imageVersion: "1.0.0"
+description: "Installing 1.0.0"
