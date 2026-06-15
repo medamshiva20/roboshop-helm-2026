@@ -1,7 +1,7 @@
 deployment:
  replicas: "1"
  imageName: "sivamedam/catalogue"
- imageVersion: "1.4.0"
+ imageVersion: "1.0.0"
 configMap:
  MONGO_URL: "mongodb://mongodb:27017/catalogue"
 service:
