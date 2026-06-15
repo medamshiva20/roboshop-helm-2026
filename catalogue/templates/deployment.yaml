@@ -14,7 +14,7 @@ spec:
    project: roboshop
    tier: backend
    component: catalogue
- templates:
+ template:
   metadata:
    labels:
     project: roboshop
