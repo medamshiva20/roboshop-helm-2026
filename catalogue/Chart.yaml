@@ -1,0 +1,5 @@
+apiVersion: v2
+name: catalogue
+version: "0.0.1"
+appVersion: "1.0.0"
+description: "Installing 1.0.0"
